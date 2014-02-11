@@ -1,5 +1,3 @@
-#ifndef __lus__
-#define __lus__
 #include "graaf.h"
 #include <vector>
 #include <queue>
@@ -56,5 +54,3 @@ namespace lu{
 	}
 	
 }
-
-#endif // __lus__
