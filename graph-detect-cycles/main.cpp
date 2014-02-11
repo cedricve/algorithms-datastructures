@@ -2,11 +2,10 @@
 #include <fstream>
 #include <iostream>
 using namespace std;
-using namespace lu;
 
 int main(){
 	Graaf<GERICHT> ggraaf;
-	ifstream reader("graph1.txt");
+	ifstream reader("graph.txt");
 	if(reader.is_open()){
 		try {
 			ggraaf.lees(reader);
